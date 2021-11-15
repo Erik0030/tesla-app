@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 0.5rem;
+  z-index: 100;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__logo {
+  height: 24px;
+  width: 100px;
+  margin-top: 7px;
+}
+.header__center {
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+.header__center > a {
+  margin: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:focus {
+  color: black;
+}
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+.header__right > p {
+  margin: 10px;
+}

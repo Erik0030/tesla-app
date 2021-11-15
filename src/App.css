@@ -1,0 +1,14 @@
+body {
+  font-family: "iCielMedium", sans-serif;
+}
+.app__itemContainer {
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.8);
+}
